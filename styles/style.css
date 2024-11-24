@@ -59,6 +59,12 @@ a {
     padding-left: 20px;
     padding-right: 20px;
 }
+@media (max-width:768px){
+ .container {
+   max-width: 760px;
+ }
+}
+
 @media (max-width:480px) {
    .container{
       max-width:500px;  
@@ -79,9 +85,7 @@ a {
  @media (max-width:768px){
    .header__inner{
     display: flex;
-    justify-content:space-around;
     align-items: center;
-    min-height: 140px;
    }
  }
  
@@ -176,7 +180,12 @@ a {
    margin-left: 380px;
    margin-top: 50px;
 }
-
+@media (max-width:768px){
+   .background_1{
+      width: 270px;
+      height: 60px;
+   }
+}
 @media (max-width:480px){
    .background_1{
       width: 118px;
@@ -196,8 +205,7 @@ a {
    .assortment{
       max-width:480px;
       width: max-content;
-      
-   }
+      }
 }
 .tea_variety {
    display: flex;
@@ -207,7 +215,6 @@ a {
 @media (max-width: 768px) {
    .tea_variety {
       display: flex;
-      flex-direction: column;
       flex-wrap: wrap;
       justify-content: space-evenly;
       
@@ -253,13 +260,15 @@ a {
    .reviews_inner{
       display: flex;
       flex-wrap: wrap;
+      margin-top: 20px;
+      row-gap: 50px;
    } }
    @media(max-width:480px) {
       .reviews_inner{
          display: flex;
          flex-wrap: wrap;
          margin-top: 20px;
-         row-gap: 25px;
+         row-gap: 50px;
       }
  }
  @media(max-width:768px){
@@ -270,6 +279,7 @@ a {
       height: 200px;
       padding-top: 50px;
       padding-left: 50px;
+      margin-top: -60px;
    }
  }
  @media(max-width:480px){
@@ -296,6 +306,11 @@ a {
    font-family: "open sans";
    font-weight: 600;
    display: block;
+}
+@media(max-width:768px){
+   .name_com{
+      margin-top: -10px;
+   }
 }
 @media(max-width:480px){
    .name_com{
@@ -433,6 +448,11 @@ a {
    justify-items: center;
    padding-top: 100px;
 }
+@media(max-width:768px){
+   .email{
+      padding-top: 0px;
+   }
+}
 @media(max-width:480px){
    .email{
    display: flex;
@@ -442,6 +462,11 @@ a {
 }
 .email1{
    width: 1000px;
+}
+@media(max-width:768px){
+   .email1{
+      width: 760px;
+   }
 }
 @media(max-width:480px){
    .email1{
