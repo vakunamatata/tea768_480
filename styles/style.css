@@ -15,7 +15,22 @@ body {
     src: url(/fonts/Open_Sans/);
     font-weight: normal;
 }
+.menu__list {
+   display: flex;
+   gap: 0 65px;
+   font-size: 18px;
+   align-items: center;
+}
 
+@media (max-width:768px){
+.menu__list {
+display: none;
+}}
+
+@media (max-width:480px){
+   .menu__list {
+   display: none;
+   }}
 @media (max-width:768px) {
 .burger {
       position: relative;
